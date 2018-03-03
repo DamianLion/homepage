@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: blimpify-web
+  namespace: default
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        task: webpage
+        k8s-app: blimpify-web
+    spec:
+      containers:
+      - name: blimpify-web
+        image: blimpify/web:latest
+        ports:
+        - containerPort: 80
+          protocol: TCP

@@ -1,0 +1,29 @@
+{
+  "name": "material-design-sample",
+  "version": "1.0.0",
+  "description": "Sample Project for Material Foundation Project.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "materialfoundation": "^0.2.2"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eucalyptuss/material-foundation-sample.git"
+  },
+  "author": "Mikolaj Dobrucki <tease@mikolajdobrucki.com>",
+  "license": "UNLICENCED",
+  "private": true,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
